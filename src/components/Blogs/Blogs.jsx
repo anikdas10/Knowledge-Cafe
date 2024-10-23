@@ -11,8 +11,8 @@ const Blogs = () => {
 },[])
 console.log(blogs);
     return (
-        <div>
-            
+        <div className=" md:w-2/3">
+           <h3>Blogs</h3>
         </div>
     );
 };
