@@ -7,6 +7,7 @@ const Bookmark = ({bookmark}) => {
         
     return (
         <div className="bg-white p-5 rounded-lg mt-3">
+           
             <div >
            <h2 className='font-bold text-lg md:text-xl lg:text-2xl'>{title}</h2> 
         </div>

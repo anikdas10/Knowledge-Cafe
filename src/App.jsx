@@ -5,15 +5,23 @@ import Header from "./components/Header/Header";
 
 const App = () => {
   const[bookmarks,setBookmarks]=useState([]);
+  const [readingTime,setReadingTime]=useState(0);
+
   const handleAddToBookmarks = blog=>{
    setBookmarks([...bookmarks,blog])
+  };
+
+  const handleMArkAsRead= time =>{
+    const intTime= parseInt(time);
+    setReadingTime(readingTime+intTime);
   }
+
   return (
     <div>
       <Header></Header>
       <div className="container md:flex gap-5">
-        <Blogs handleAddToBookmarks={handleAddToBookmarks}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Blogs handleAddToBookmarks={handleAddToBookmarks} handleMArkAsRead={handleMArkAsRead}></Blogs>
+        <Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
       </div>
     </div>
   );
