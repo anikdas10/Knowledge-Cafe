@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co.com/RzfQ5Ms/1.jpg",
+    "title": "Exploring the Cosmos",
+    "author": "John Smith",
+    "author_img": "https://i.ibb.co.com/B66cyR9/boy1.png",
+    "posted_Date": "2024-10-20",
+    "reading_time": "8 ",
+    "hasTag": ["science", "space", "astronomy"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co.com/r5hjNdT/2.png",
+    "title": "Mastering the Art of Cooking",
+    "author": "Jane Doe",
+    "author_img": "https://i.ibb.co.com/SXnN6rK/boy2.jpg",
+    "posted_Date": "2024-10-18",
+    "reading_time": "5",
+    "hasTag": ["food", "recipes", "cooking"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co.com/qgK34Dw/3.png",
+    "title": "The Future of AI",
+    "author": "Alan Turing",
+    "author_img": "https://i.ibb.co.com/zZ6LN0K/girl1.jpg",
+    "posted_Date": "2024-10-15",
+    "reading_time": "12",
+    "hasTag": ["technology", "AI", "future"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co.com/BgDh1NK/4.jpg",
+    "title": "Traveling the World on a Budget",
+    "author": "Emily Rose",
+    "author_img": "https://i.ibb.co.com/51yLxWx/girl2.jpg",
+    "posted_Date": "2024-10-10",
+    "reading_time": "7",
+    "hasTag": ["travel", "budget", "adventure"]
+  }
+]
